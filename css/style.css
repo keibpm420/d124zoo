@@ -15,52 +15,78 @@ img {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffff99;
-}
-
-.index {
-    background-color: #ffff99;
-}
-
-.contents {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-button {
-    background-color: #4caf50;
-    border: none;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-}
-
-h1 {
-    text-align: center
+    background-color: #DCFF17;
+    color: #333;
 }
 
 .list {
-    font-size: 20px
+    margin: 15px 0 30px 15px;
+    font-size: 40px;
 }
 
 .photo {
     width: 50%;
-    height: 10%;
+    height: 15%;
     margin: 0 auto;
 }
 
-/* @media screen and (max-width: 600px) {
-    .content {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-} */
+.content {
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 60px;
+    width: 50%;
+    height: 15%;
+    background-color: #827B7B;
+    color: #fafafa;
+    font-size: 45px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.button {
+    margin: 80px auto 100px;
+    text-align: center;
+    
+}
+
+.button a{
+    background-color: #D9D9D9;
+    padding: 40px 60px;
+    border: #333 solid 3px;
+    font-size: 32px;
+    border-radius: 30px;
+}
+
+.question {
+    margin-top: 100px;
+}
+
+.question h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.question p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.answer {
+    text-align: center;
+}
+
+.answer h1 {
+    font-size: 45px;
+}
+
+.answer p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.answer img {
+    width: 50%;
+    height: 500px;
+}
