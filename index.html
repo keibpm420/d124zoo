@@ -7,28 +7,29 @@
     <meta name="description" content="私が多摩動物公園に行った思い出">
     
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <div class="index">
         <!-- パンくずリスト -->
         <div class="list">
-            <p>TOP > </p>
+            <div class="container">
+                <p>TOP > </p>
+            </div>
         </div>
 
         <!-- 看板の写真 -->
         <figure class="photo">
-            <img src="./images/stationSign.webp" alt="多摩動物公園駅">
+            <div class="container">
+                <img src="./images/stationSign.webp" alt="多摩動物公園駅">
+            </div>
         </figure>
 
-        <div class="content">
+        <div class="title">
             <h1>動物クイズ</h1>
         </div>
         <!-- ボタン -->
-        <div class="button">
-            <a href="quiz.html" class="button"><button>クイズに挑戦</button></a>
-        </div>
-    </div>
+        <a class="btn" href="quiz.html">クイズに挑戦</a>
 </body>
 </html>

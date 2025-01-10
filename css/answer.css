@@ -1,0 +1,12 @@
+body{
+    background: #FF8902;
+    height: 150vh;
+}
+.answer{
+    text-align: center;
+    margin-bottom: 50px;
+    text-align: left;
+}
+figure{
+    margin: 0 auto;
+}

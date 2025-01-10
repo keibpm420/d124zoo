@@ -1,0 +1,15 @@
+/* 
+メインカラー #06FF51
+*/
+body{
+    background-color: #06FF51;
+    height: auto;
+}
+.quiz-ttl{
+    text-align: center;
+    margin: 110px 0;
+}
+.quiz-statement{
+    text-align: center;
+    margin-bottom: 150px;
+}
